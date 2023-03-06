@@ -1,0 +1,231 @@
+body {
+    background-image:  url('img/image-lion-background.png'), linear-gradient( rgb(255, 0, 0), rgb(87, 75, 255));
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+nav {
+    align-items:end;
+    /* display: flex; */
+}
+
+.navbutton  {
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 2px;
+    border: white;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: 500;
+    display: inline-block;
+ }
+
+ .dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    width: 110px;
+    margin-left: -10px;
+    margin-top: 10px;
+ }
+ .dropdown a {
+    color: red;
+ }
+
+ .navbutton:hover .dropdown{
+    display:grid;
+ }
+
+ .dropdown .navbutton:hover{
+    background-color: black;
+ }
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 30px;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+.cards {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.card1 {
+    background-image: url('img/image-background-card1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card2 {
+    background-image: url('img/image-background-card2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card3 {
+    background-image: url('img/image-background-card3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display SC', serif;
+    margin-bottom: 1rem;
+}
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+}
+
+.cards i {
+    font-size: 120px;
+    margin-top: 10px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color:rgb(255, 6, 238);
+    font-family: 'Playfair Display SC', serif;
+    padding: 8px;
+    border-radius: 500px;
+}
+ a.mybutton {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+
+ .mybutton:hover{
+    background-color: rgb(51, 0, 255);
+    color: white;
+ }
+
+
+ .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+ }
+
+ .tbox {
+    width: 47%;
+    padding: 10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+ }
+
+
+ .tbox p:last-child {
+    font-size: 0.8rem;
+    padding-left: 30px;
+ }
+
+ /* contact page */
+ .inputwrapper {
+    margin-bottom: 20px;
+}
+
+.b1 {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding: 8px;
+    font-weight: 600;
+}
+ 
+ .b1:hover{
+    background-color: rgb(51, 0, 255);
+    color: white;
+ }
+
+ input[type=text], input[type=email], textarea {
+    padding: 8px 20px; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 10px 0px;
+}
